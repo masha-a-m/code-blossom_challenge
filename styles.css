@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(55, 47, 63);
+    color:white;
+    font-family: "Inter" sans-serif;
+    border:1px rgb(55, 47, 63) solid;
+    border-radius: 20px;
+}
+
+nav{
+    display: flex;
+    width:100%;
+    position:relative;
+    justify-content: space-around;
+    text-align: center;
+    padding:15px 30px;
+}
+
+nav .logo{
+    font-size:30px;
+    font-weight: 600;
+    cursor:pointer;
+    padding:20px;
+}
+
+nav .logo span{
+    color:rgb(146, 146, 224);
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+nav ul li{
+    padding:20px;
+    margin:0px 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+nav ul li a{
+    color:rgb(231, 223, 223);
+    text-decoration: none;
+}
+
+.join{
+    text-decoration: underline;
+    text-decoration-color: rgb(146, 146, 224);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+}
+
+nav .search{
+    display: flex;
+    margin:auto 0;
+    position:relative;
+    right:100px;
+    height:30px;
+}
+
+nav .search input{
+    border:none;
+    outline:none;
+    background-color: #726969;
+    height:100%;
+    padding:0 10px;
+    position:relative;
+    font-size: 13px;
+    width:300px;
+    border-radius: 30px;
+}
+
+nav .search input::placeholder{
+    color:rgb(233, 217, 217);
+    position:relative;
+    left:40px;
+}
+nav .search span{
+    color:#cac9c9;
+    font-size:20px;
+    height:100%;
+    padding:8px;
+    position:absolute;
+    cursor: pointer;
+    z-index: 1;
+}
+
+nav .search span::after{
+    height:100%;
+    width:100%;
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+}
+
+.side{
+    display: flex;
+    flex-direction: column;
+    margin:100px 120px;
+}
+.free{
+    font-size: 20px;
+    font-weight:500;
+    text-transform: uppercase;
+}
+.cont{
+    margin-top: 16px;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 46px;
+}
+.cont span{
+    color: rgb(95, 149, 201);
+}
+
+.start{
+    margin-top: 30px;
+    font-size:8px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+.explore{
+    position: relative;
+    bottom:60px;
+    left:120px;
+    padding:10px 30px;
+    color:white;
+    font-size: 12px;
+    border:1px solid #fff;
+    background-color: transparent;
+    border-radius: 50px;
+    cursor:pointer;
+}
+
+.book-now{
+    position: relative;
+        bottom: 60px;
+        left: 150px;
+        padding: 10px 30px;
+        color: white;
+        font-size: 12px;
+        border: none;
+        background-color: rgb(4, 127, 151);
+        border-radius: 50px;
+        cursor:pointer;
+    }
+
+    .signupform{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        position:relative;
+        bottom:400px;
+        right:300px;
+    }
+
+    .form-title{
+        font-size: 50px;
+    }
+    .form-title span{
+    color:rgb(4, 127, 151);
+    }
+
+    .form{
+        width:300px;
+        border-radius: 8px;
+    }
+
+    .InputContainer {
+            position: relative;
+            height: 45px;
+            margin-bottom: 20px;
+            font-size: 10px;
+        }
+
+        .input {
+            position: relative;
+            top: 40px;
+            right: 25px;
+            color:white;
+            font-size: 20px;
+            height: 100%;
+            width: 100%;
+            border: 1px solid #24232300;
+            border-radius: 12px;
+            padding: 0 200px;
+            background: rgba(70, 68, 68, 0.349);
+            z-index: 1;
+        }
+
+        .member{
+            position:relative;
+            left:220px;
+            right:60px;
+            top:30px;
+            font-weight: 100;
+        }
+        .member span{
+            color:rgb(156, 156, 243);
+        }
+
+        .submit{
+            position:relative;
+            top:50px;
+            left:30px;
+            padding:10px 100px;
+            background-color: rgba(43, 153, 255, 0.781);
+            border-radius: 50px;
+            border:none;
+
+        }
